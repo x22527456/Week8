@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>hello</title>
+    <link rel="stylesheet" href="websiteb.css">
+<script src="websitec.javascript" charset="utf-8">
+
+  }
+</script>
+
+  </head>
+  <body>
+<p id="demo">hi</p>
+<form >
+  <input type="button" onclick="sayHello()" value="click">
+</form>
+
+<p id="dmo">Good Evening!</p>
+<p>this wont appear after 6PM</p>
+<script type="text/javascript">
+  if (new Date().getHours() < 18) {
+    document.getElementById("dmo").innerHTML = "Good day!";
+  }
+
+</script>
+
+<script type="text/javascript">
+function sayHello(demo) {
+  document.getElementById('demo').innerHTML = "wow this changed!?!?"
+}
+</script>
+<br>
+<p>if the width of the room is 2 and length is 3 then the</p>
+<br>
+<script type="text/javascript">
+  function calcArea (width, length) {
+    var area = width * length;
+    return area;
+  }
+  var floor = calcArea (2,3);
+  document.write("area is " + floor);
+
+
+</script>
+  </body>
+</html>
